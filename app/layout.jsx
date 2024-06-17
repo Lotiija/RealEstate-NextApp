@@ -1,3 +1,4 @@
+import Navbar from '@/components/Navbar';
 import '@/assets/styles/globals.css'
 
 export const metadata = {
@@ -6,11 +7,12 @@ export const metadata = {
   keywords: 'rental, find rentals, find properties',
 }
 
-const MainLayout = ({ children}) => {
+const MainLayout = ({ children }) => {
   return (
     <html lang='en'>
       <body>
-        <div>{children}</div>
+        <Navbar />
+        <main>{children}</main>
       </body>
     </html>
   )
