@@ -1,8 +1,14 @@
-import React from 'react'
+import Footer from '@/components/Footer';
+import Hero from '@/components/Hero';
+import InfoBoxes from '@/components/infoBoxes';
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+      <Hero />
+      <InfoBoxes />
+      <Footer />
+    </>
   )
 }
 
